@@ -28,7 +28,7 @@ The design follows the product document. Phase-by-phase status is in `decisions.
 | Control plane | Workloads, experiments, policies, approvals | Python + PostgreSQL |
 | Telemetry ingest | OTel / Prometheus / vLLM / DCGM normalization | OTel Collector + adapters |
 | Metrics store | Time series | TimescaleDB → ClickHouse |
-| Artifact store | Traces, bundles, reports | S3-compatible, per-tenant prefix, KMS |
+| Artifact store | Traces, bundles, reports | S3-compatible outside Vercel (Cloudflare R2 or AWS S3), per-tenant prefix, KMS, signed URLs. **Not Vercel Blob** (see decisions.md #17) |
 | Agent orchestrator | Investigations, experiment planning | Tool-calling LLM + the state machine in `packages/agent-tools` |
 | Experiment runner | Replay, benchmark, config variants | Docker workers → Kubernetes Jobs |
 | Benchmark Guardian | Gates + decision | `packages/benchmark` (ported to Python, or run as a TS worker) |

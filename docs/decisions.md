@@ -32,6 +32,11 @@ Assumptions and choices made while building, newest last. Decision rule from the
     - **Length:** 27.5s, slightly over brag's 25s guideline, because the voice sets the pace.
     - **Locality:** GSAP and fonts are vendored locally for a deterministic render.
 
+17. **No Vercel Blob, now or later.** Nothing in WaferLens may incur Vercel Blob operations: no `@vercel/blob`, no Blob store on the project, no `BLOB_READ_WRITE_TOKEN`.
+    - **Static media:** the launch film, poster and captions live in `apps/web/public/` and are served by the CDN.
+    - **Future file storage:** artifact bundles, traces, exported reports and payload samples go to an S3-compatible store outside Vercel (Cloudflare R2 or AWS S3), using per-tenant prefixes and short-lived signed URLs.
+    - **Uploads:** browser uploads go straight to that store via presigned PUT URLs, never through Vercel functions.
+
 ## Phase status vs the product document
 
 | Phase | Status |
