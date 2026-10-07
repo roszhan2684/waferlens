@@ -4,7 +4,7 @@
 
 **Live demo: [waferlens.vercel.app](https://waferlens.vercel.app)** · open the [console](https://waferlens.vercel.app/console) for the guided tour · [launch film](https://waferlens.vercel.app/#film)
 
-> Independent portfolio project. Not affiliated with, endorsed by, or used by Wafer. Every workload, customer, metric and incident in this repo is simulated demo data generated from a fixed seed.
+> Portfolio project. Every workload, customer, metric and incident in this repo is simulated demo data generated from a fixed seed.
 
 ## What is in this repo
 

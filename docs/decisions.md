@@ -2,7 +2,7 @@
 
 Assumptions and choices made while building, newest last. Decision rule from the product document: when ambiguous, choose what improves reproducibility, customer trust and measurable performance.
 
-1. **Name: WaferLens** (the spec says "TracePilot"). Because the name contains "Wafer", the footer, sidebar, report footer and README all state that the project is independent and not affiliated. No Wafer assets are used.
+1. **Name: WaferLens** (the spec called it "TracePilot").
 2. **No backend in this build.** Requested scope was a full demo on seeded data. The domain logic still lives in framework-free packages with tests, so a FastAPI control plane can adopt it rather than rewrite it.
 3. **Monorepo with npm workspaces.** Shape: `apps/web` + `packages/{shared,benchmark,agent-tools}`. Packages ship TypeScript source, which Turbopack transpiles. `apps/api` and `apps/worker` are not created until there is code for them.
 4. **Fixed demo clock** (Oct 7 2026 14:00 UTC) and seeded PRNG (mulberry32). Every render, test and screenshot is identical. Times are always rendered in UTC to avoid hydration mismatches.
@@ -17,7 +17,7 @@ Assumptions and choices made while building, newest last. Decision rule from the
     - **Skipped Theatre.js:** the hero scrubber is a 60-line component with no heavy dependency.
     - **Skipped Rive:** needs authored `.riv` assets, so gate state changes use CSS.
     - **Skipped Unicorn.studio:** the X-ray lens is a CSS `clip-path` effect, so a shader would add weight without adding information.
-12. **Fonts:** Inter Tight + IBM Plex Mono (open license), not Wafer's fonts.
+12. **Fonts:** Inter Tight + IBM Plex Mono (open license), self-hosted.
 13. **Cache Components / Partial Prefetching disabled.** The scaffold enabled them by default, but every page is static here. Disabling them avoids Suspense requirements for client hooks without losing anything.
 14. **Page states are previewable** via the top-bar **View state** switcher, rather than hidden behind query params.
 

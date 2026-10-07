@@ -9,7 +9,7 @@ const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], variabl
 export const metadata: Metadata = {
   title: { default: "WaferLens · Inference performance you can prove", template: "%s · WaferLens" },
   description:
-    "WaferLens profiles real inference workloads, ranks evidence-backed bottleneck hypotheses, runs controlled replays, blocks invalid benchmark wins, and watches production for regressions. Independent project, not affiliated with Wafer.",
+    "WaferLens profiles real inference workloads, ranks evidence-backed bottleneck hypotheses, runs controlled replays, blocks invalid benchmark wins, and watches production for regressions.",
 };
 
 export const viewport: Viewport = {

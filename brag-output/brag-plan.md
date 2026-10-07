@@ -15,7 +15,7 @@ A giant sage `−47.8%` "p95 TTFT" headline, the kind of number people screensho
 - Regression Guard: a p95 line jumps at the `dep_7f3c` deploy marker. The label reads "Correlated, not proven", then flips to "Confirmed by EXP-108".
 
 ## Outro / punchline
-"Measure the workload. Find the bottleneck. Prove the winner." → WaferLens wordmark + lens mark. Small footer: "Independent project · not affiliated with Wafer · demo data".
+"Measure the workload. Find the bottleneck. Prove the winner." → WaferLens wordmark + lens mark. Small footer: "waferlens.vercel.app · all data simulated".
 
 ## User flow worth showing
 Detect (SLO miss) → investigate (ranked hypotheses with evidence) → verify (gates) → operate (regression caught). The centerpiece scenes recreate the console's real components: HypothesisCard, GateChecklist, deploy-marker chart, decision badges.
@@ -98,7 +98,7 @@ Audio intent: alert then resolve.
 Transition mood: soft → Scene 6
 
 ### Scene 6 — Outro — ~3s
-"Measure the workload. Find the bottleneck. Prove the winner." then wordmark; footer disclaimer.
+"Measure the workload. Find the bottleneck. Prove the winner." then wordmark; URL footer.
 Audio intent: settle; bell on the logo.
 
 **Music mood for this video:** upbeat-but-restrained

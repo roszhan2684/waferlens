@@ -431,8 +431,8 @@ export default function Home() {
         <div className="m-wrap m-footer-grid">
           <div className="stack" style={{ gap: 10 }}>
             <Logo size={18} />
-            <p className="disclaimer">
-              WaferLens is an independent portfolio project. It is not affiliated with, endorsed by, or used by Wafer. Every workload, customer, metric and incident on this site is simulated demo data generated from a fixed seed.
+            <p className="footnote">
+              WaferLens is a portfolio project. Every workload, customer, metric and incident on this site is simulated demo data generated from a fixed seed.
             </p>
           </div>
           <div className="stack" style={{ gap: 6 }}>

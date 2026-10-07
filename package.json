@@ -2,7 +2,7 @@
   "name": "waferlens",
   "private": true,
   "version": "0.1.0",
-  "description": "WaferLens — inference performance operations. Independent project, not affiliated with Wafer.",
+  "description": "WaferLens: inference performance operations. Demo on simulated seed data.",
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
     "dev": "npm run dev -w @waferlens/web",

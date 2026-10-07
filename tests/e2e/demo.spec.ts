@@ -20,7 +20,7 @@ test("landing: thesis is visible and adversarial mode blocks a cached-output win
   const errors = trackErrors(page);
   await page.goto("/");
   await expect(page.getByRole("heading", { level: 1 })).toContainText("Inference you can");
-  await expect(page.getByText("not affiliated with, endorsed by, or used by Wafer")).toBeVisible();
+  await expect(page.getByText(/simulated demo data generated from a fixed seed/)).toBeVisible();
 
   const lab = page.locator("#guardian");
   await expect(lab.getByText("Measured winner").first()).toBeVisible();

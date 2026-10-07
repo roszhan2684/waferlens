@@ -25,8 +25,8 @@ A short, polished launch film for WaferLens, embedded on the marketing landing p
 - Tone preset: polished. Direction: quiet, confident infrastructure film for skeptical engineers.
 - Angle: open on a 48% "win" and have the product refuse it; then show the real winner earning its number and the regression it catches later.
 - Hook: `−47.8%` → red `BLOCKED` slam with the cache-integrity FAIL row.
-- Outro: the three-part tagline, then the wordmark; disclaimer footer.
-- Avoid: generic SaaS language, abstract filler, purple/cyan AI gradients, Wafer branding.
+- Outro: the three-part tagline, then the wordmark; URL footer.
+- Avoid: generic SaaS language, abstract filler, purple/cyan AI gradients.
 
 ## Visual Identity
 - Background #000 with a sage-tinted radial glow; panels #0a0a0a/#101010; borders #2a2a2a scaled to 2px for video.
@@ -39,7 +39,7 @@ A short, polished launch film for WaferLens, embedded on the marketing landing p
 3. Agent 9.05–14.31s: VO3 at 9.25s. Hypothesis card, confidence → 0.93, three evidence rows held.
 4. Guardian 14.31–17.99s: VO4 at 14.5s. Nine gates tick PASS (fast stagger, held), `981 → 648 ms` lands at 16.41s (strong cue).
 5. Regression 17.99–23.78s: VO5 at 18.2s. Chart draws, deploy spike, label flips to confirmed at 23.25s (strong cue).
-6. Outro 23.78–27.5s: VO6 at 24.0s. Tagline, wordmark, disclaimer.
+6. Outro 23.78–27.5s: VO6 at 24.0s. Tagline, wordmark, URL footer.
 
 ## Audio
 - Music: `happy-beats-business-moves-vol-11` from 0.45s into the track (puts a strong cue on 3.25s). Volume lane: fade in to 0.32, duck to 0.13 under narration (0.4–25.9s), swell to 0.4, fade out by 27.5s.

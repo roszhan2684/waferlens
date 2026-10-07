@@ -67,7 +67,7 @@ export function Shell({ children }: { children: React.ReactNode }) {
             Meridian AI · demo tenant
           </div>
           <p className="muted" style={{ fontSize: 11, marginTop: 4 }}>
-            Simulated data. Independent project, not affiliated with Wafer.
+            Simulated demo data from a fixed seed.
           </p>
         </div>
       </aside>

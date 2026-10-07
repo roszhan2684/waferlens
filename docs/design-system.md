@@ -1,6 +1,6 @@
 # Design system
 
-Wafer-resonant, not Wafer-copied: black/white contrast, a muted sage accent, monospace technical labels, large editorial headlines. No Wafer logos, fonts or screens.
+Black/white contrast, a muted sage accent, monospace technical labels, large editorial headlines.
 
 ## Tokens (`apps/web/src/app/globals.css`)
 
@@ -19,7 +19,7 @@ Wafer-resonant, not Wafer-copied: black/white contrast, a muted sage accent, mon
 
 - **Inter Tight** for headlines and UI. Large editorial headlines use −0.035em tracking.
 - **IBM Plex Mono** for labels, IDs, metrics and traces (uppercase labels at 11px, +0.06em).
-- Both are open-licensed and self-hosted via `next/font`. Wafer's DM Sans, Space Grotesk and Space Mono were deliberately not used.
+- Both are open-licensed and self-hosted via `next/font`.
 
 ## Chart palette (validated)
 
