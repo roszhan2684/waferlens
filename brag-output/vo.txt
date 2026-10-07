@@ -1,0 +1,11 @@
+This benchmark says forty-eight percent faster. WaferLens blocks it. The cache hits weren't real.
+
+This is inference performance you can prove.
+
+The agent ranks every hypothesis on evidence, including the evidence against it.
+
+Nine deterministic checks guard every win.
+
+And when a deploy breaks production, it's correlated, not proven, until a replay confirms it.
+
+WaferLens. Prove the winner.

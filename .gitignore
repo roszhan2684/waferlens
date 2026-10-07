@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+coverage
+playwright-report
+test-results
+*.tsbuildinfo
+.env*
+!.env.example
+.DS_Store
+.vercel
+snapshots
+brag-output/render.log
+# Music bed from the /brag skill: redistribution terms unverified, so the raw track
+# stays out of the repo. The rendered film (with music mixed in) is committed.
+brag-output/composition/assets/music/*.mp3

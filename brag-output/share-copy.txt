@@ -1,0 +1,1 @@
+WaferLens blocked a 48% benchmark win because the replay's cache hits weren't real. Nine deterministic checks, an agent that cites evidence against itself, and a regression guard that says "correlated, not proven" until a replay confirms it.
