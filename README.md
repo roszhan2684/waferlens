@@ -2,6 +2,8 @@
 
 **Inference you can prove is better.** WaferLens is a product concept for *inference performance operations*. Give it a real inference workload and an objective. It profiles the serving path, ranks evidence-backed bottleneck hypotheses, runs controlled replays, blocks invalid benchmark wins, and keeps watching production after the change ships.
 
+**Live demo: [waferlens.vercel.app](https://waferlens.vercel.app)** · open the [console](https://waferlens.vercel.app/console) for the guided tour · [launch film](https://waferlens.vercel.app/#film)
+
 > Independent portfolio project. Not affiliated with, endorsed by, or used by Wafer. Every workload, customer, metric and incident in this repo is simulated demo data generated from a fixed seed.
 
 ## What is in this repo
@@ -26,6 +28,7 @@ npm install
 npm run dev            # http://localhost:3000
 npm test               # unit tests (vitest)
 npm run test:e2e       # end-to-end (playwright, starts the dev server on :3100)
+BASE_URL=https://waferlens.vercel.app npm run test:e2e   # same suite against the live site
 npm run build          # static production build (all 27 routes prerender)
 ```
 
